@@ -2,5 +2,5 @@
 
 <p align="center">
   <strong>Powered by</strong><br />
-  <img src="http://i.imgur.com/WAsZdxQ.png" width="15%" />
+  <img src="http://stylus-lang.com/img/stylus-logo.svg" width="11%" />
 </p>
