@@ -1,4 +1,6 @@
 # Just Another Framework: CSS 
 
-### Powered by  
-![Stylus](http://i.imgur.com/WAsZdxQ.png)
+<p align="center">
+  <strong>Powered by</strong><br />
+  <img src="http://i.imgur.com/WAsZdxQ.png" width="15%" />
+</p>
