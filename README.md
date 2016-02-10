@@ -1,6 +1,16 @@
 # Just Another Framework: CSS
 
-<p align="center">
-  <strong>Powered by</strong><br />
-  <img src="http://stylus-lang.com/img/stylus-logo.svg" width="11%" />
+## Base
+
+## Components
+
+### Buttons
+
+### Navbars
+
+---
+
+<p>
+  <strong>Powered by</strong> <br />
+  <img src="http://stylus-lang.com/img/stylus-logo.svg" width="70px" />
 </p>
