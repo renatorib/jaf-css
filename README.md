@@ -1,4 +1,4 @@
-# Just Another Framework: CSS 
+# Just Another Framework: CSS
 
 <p align="center">
   <strong>Powered by</strong><br />

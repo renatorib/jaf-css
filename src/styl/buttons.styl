@@ -1,0 +1,53 @@
+// Mixins
+button-color(name, bgcolor, txtcolor)
+    &.{name}
+        background bgcolor
+        color txtcolor
+        &:hover
+            background darken(bgcolor, 10%)
+        &:active
+            box-shadow inset 0 2px 0 0 rgba(0,0,0,0.1)
+    &.outline.{name}
+        background transparent
+        border-color bgcolor
+        color bgcolor
+        &:hover
+            color txtcolor
+            background bgcolor
+
+//# Component
+.button
+    display inline-block
+    margin-bottom 0
+    padding 8px 16px
+    text-align center
+    text-decoration none
+    border 1px solid transparent
+    border-radius 3px
+    font-family $font-family
+    font-size 16px
+
+    //- Colors
+    button-color 'red' $color-red white
+    button-color 'pumpkin' $color-pumpkin white
+    button-color 'orange' $color-orange white
+    button-color 'yellow' $color-yellow white
+    button-color 'lemon' $color-lemon white
+    button-color 'green' $color-green white
+    button-color 'greensea' $color-greensea white
+    button-color 'blue' $color-blue white
+    button-color 'darkblue' $color-darkblue white
+    button-color 'midnight' $color-midnight white
+    button-color 'purple' $color-purple white
+    button-color 'pink' $color-pink white
+    button-color 'clouds' $color-clouds #333
+    button-color 'white' $color-white #333
+
+    &.shadow
+        box-shadow inset 0 -1px 1px rgba(0,0,0,0.15)
+
+    &.square
+        border-radius 0
+
+    &.round
+        border-radius 99px

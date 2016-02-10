@@ -1,0 +1,45 @@
+{
+  "name": "jaf-css",
+  "version": "0.1.0",
+  "description": "Just Another Framework: CSS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatorib/jaf-css.git"
+  },
+  "keywords": [
+    "css",
+    "stylus",
+    "framework",
+    "css",
+    "css",
+    "framework",
+    "framework",
+    "jaf",
+    "jaf-css",
+    "just",
+    "another",
+    "framework"
+  ],
+  "author": "Renato Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatorib/jaf-css/issues"
+  },
+  "homepage": "https://github.com/renatorib/jaf-css#readme",
+  "devDependencies": {
+    "stylus": "^0.53.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.0"
+  }
+}

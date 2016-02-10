@@ -1,0 +1,536 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+q:before,
+blockquote:after,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:after,
+*:before {
+  -webkit-font-smoothing: antialiased;
+}
+* -webkit-box-sizing border-box -moz-box-sizing border-box,
+*:after -webkit-box-sizing border-box -moz-box-sizing border-box,
+*:before -webkit-box-sizing border-box -moz-box-sizing border-box {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+h1.no-margin,
+h2.no-margin,
+h3.no-margin,
+h4.no-margin,
+h5.no-margin,
+h6.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1.no-margin-top,
+h2.no-margin-top,
+h3.no-margin-top,
+h4.no-margin-top,
+h5.no-margin-top,
+h6.no-margin-top {
+  margin-top: 0;
+}
+h1no-margin-bottom,
+h2no-margin-bottom,
+h3no-margin-bottom,
+h4no-margin-bottom,
+h5no-margin-bottom,
+h6no-margin-bottom {
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+.button.red {
+  background: #ee3822;
+  color: #fff;
+}
+.button.red:hover {
+  background: #e32811;
+}
+.button.red:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.red {
+  background: transparent;
+  border-color: #ee3822;
+  color: #ee3822;
+}
+.button.outline.red:hover {
+  color: #fff;
+  background: #ee3822;
+}
+.button.pumpkin {
+  background: #f6901d;
+  color: #fff;
+}
+.button.pumpkin:hover {
+  background: #ee8309;
+}
+.button.pumpkin:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.pumpkin {
+  background: transparent;
+  border-color: #f6901d;
+  color: #f6901d;
+}
+.button.outline.pumpkin:hover {
+  color: #fff;
+  background: #f6901d;
+}
+.button.orange {
+  background: #faaa17;
+  color: #fff;
+}
+.button.orange:hover {
+  background: #f19e05;
+}
+.button.orange:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.orange {
+  background: transparent;
+  border-color: #faaa17;
+  color: #faaa17;
+}
+.button.outline.orange:hover {
+  color: #fff;
+  background: #faaa17;
+}
+.button.yellow {
+  background: #f1c40f;
+  color: #fff;
+}
+.button.yellow:hover {
+  background: #dab10d;
+}
+.button.yellow:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.yellow {
+  background: transparent;
+  border-color: #f1c40f;
+  color: #f1c40f;
+}
+.button.outline.yellow:hover {
+  color: #fff;
+  background: #f1c40f;
+}
+.button.lemon {
+  background: #c0d72f;
+  color: #fff;
+}
+.button.lemon:hover {
+  background: #b0c626;
+}
+.button.lemon:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.lemon {
+  background: transparent;
+  border-color: #c0d72f;
+  color: #c0d72f;
+}
+.button.outline.lemon:hover {
+  color: #fff;
+  background: #c0d72f;
+}
+.button.green {
+  background: #4ab848;
+  color: #fff;
+}
+.button.green:hover {
+  background: #42a640;
+}
+.button.green:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.green {
+  background: transparent;
+  border-color: #4ab848;
+  color: #4ab848;
+}
+.button.outline.green:hover {
+  color: #fff;
+  background: #4ab848;
+}
+.button.greensea {
+  background: #27b466;
+  color: #fff;
+}
+.button.greensea:hover {
+  background: #23a25c;
+}
+.button.greensea:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.greensea {
+  background: transparent;
+  border-color: #27b466;
+  color: #27b466;
+}
+.button.outline.greensea:hover {
+  color: #fff;
+  background: #27b466;
+}
+.button.blue {
+  background: #3498db;
+  color: #fff;
+}
+.button.blue:hover {
+  background: #258bcf;
+}
+.button.blue:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.blue {
+  background: transparent;
+  border-color: #3498db;
+  color: #3498db;
+}
+.button.outline.blue:hover {
+  color: #fff;
+  background: #3498db;
+}
+.button.darkblue {
+  background: #2c57a5;
+  color: #fff;
+}
+.button.darkblue:hover {
+  background: #284e94;
+}
+.button.darkblue:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.darkblue {
+  background: transparent;
+  border-color: #2c57a5;
+  color: #2c57a5;
+}
+.button.outline.darkblue:hover {
+  color: #fff;
+  background: #2c57a5;
+}
+.button.midnight {
+  background: #34495e;
+  color: #fff;
+}
+.button.midnight:hover {
+  background: #2f4255;
+}
+.button.midnight:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.midnight {
+  background: transparent;
+  border-color: #34495e;
+  color: #34495e;
+}
+.button.outline.midnight:hover {
+  color: #fff;
+  background: #34495e;
+}
+.button.purple {
+  background: #9b59b6;
+  color: #fff;
+}
+.button.purple:hover {
+  background: #8e4aa9;
+}
+.button.purple:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.purple {
+  background: transparent;
+  border-color: #9b59b6;
+  color: #9b59b6;
+}
+.button.outline.purple:hover {
+  color: #fff;
+  background: #9b59b6;
+}
+.button.pink {
+  background: #ea2462;
+  color: #fff;
+}
+.button.pink:hover {
+  background: #de1554;
+}
+.button.pink:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.pink {
+  background: transparent;
+  border-color: #ea2462;
+  color: #ea2462;
+}
+.button.outline.pink:hover {
+  color: #fff;
+  background: #ea2462;
+}
+.button.clouds {
+  background: #ecf0f1;
+  color: #333;
+}
+.button.clouds:hover {
+  background: #d1dadd;
+}
+.button.clouds:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.clouds {
+  background: transparent;
+  border-color: #ecf0f1;
+  color: #ecf0f1;
+}
+.button.outline.clouds:hover {
+  color: #333;
+  background: #ecf0f1;
+}
+.button.white {
+  background: #fff;
+  color: #333;
+}
+.button.white:hover {
+  background: #e6e6e6;
+}
+.button.white:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.button.outline.white {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.button.outline.white:hover {
+  color: #333;
+  background: #fff;
+}
+.button.shadow {
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0.15);
+}
+.button.square {
+  border-radius: 0;
+}
+.button.round {
+  border-radius: 99px;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 0;
+}
+.navbar > * {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  border-right: 1px solid #ddd;
+  padding: 10px 20px;
+  height: 100%;
+  vertical-align: middle;
+}
+.navbar div {
+  padding: 3px 7px;
+  height: 100%;
+}
+.navbar div > * {
+  padding: 7px 13px;
+}
+.navbar div > .button {
+  padding: 6px 13px;
+}
+.navbar div > input {
+  padding: 7px 13px;
+}
+.navbar h1,
+.navbar h2,
+.navbar h3,
+.navbar h4,
+.navbar h5,
+.navbar h6 {
+  font-weight: bold;
+}
+.navbar a:not(.button) {
+  font-size: 16px;
+  text-decoration: none;
+  color: #34495e;
+  background: #f7f7f7;
+}
+.navbar a:not(.button):hover {
+  background: #f0f0f0;
+}
+.navbar.header {
+  margin-bottom: 50px;
+}
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+.navbar.center *:first-child {
+  border-left: 1px solid #ddd;
+}

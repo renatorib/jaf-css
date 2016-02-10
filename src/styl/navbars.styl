@@ -1,0 +1,52 @@
+.navbar
+    position relative
+    width 100%
+    background darken(#fff, 3)
+    border 1px solid #ddd
+    margin-bottom 10px
+    font-size 0
+
+    > *
+        display inline-block
+        margin 0
+        font-size 16px
+        border-right 1px solid #ddd
+        padding 10px 20px
+        height 100%
+        vertical-align middle
+
+    div
+        padding 3px 7px
+        height 100%
+        > *
+            padding 7px 13px
+        > .button
+            padding 6px 13px
+        > input
+            padding 7px 13px
+
+    h1, h2, h3, h4, h5, h6
+        font-weight bold
+
+    a:not(.button)
+        font-size 16px
+        text-decoration none
+        color $color-midnight
+        background darken(#fff, 3)
+        &:hover
+            background darken(#fff, 6%)
+
+    &.header
+        margin-bottom 50px
+
+    &.fixed
+        position fixed
+        top 0
+        left 0
+        border-top 0
+        border-right 0
+        border-left 0
+
+    &.center
+        *:first-child
+            border-left 1px solid #ddd
